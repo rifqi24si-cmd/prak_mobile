@@ -22,7 +22,7 @@ class SecondActivity : AppCompatActivity() {
             insets
         }
 
-        // Inisialisasi komponen
+        // Inisialisasi komponen kimay
         val inputNama: EditText = findViewById(R.id.inputNama)
         val btnSubmit: Button = findViewById(R.id.btnSubmit)
 
