@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2E85"
+    android:padding="24dp"
+    tools:context=".pertemuan_2.SecondActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="REGISTRASI Kuno"
+        android:textColor="#8B4513"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:shadowColor="#40000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="8dp"
+        android:background="#8B4513"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="~ SIAPA NAMA ANDA? ~"
+        android:textColor="#5D4037"
+        android:textSize="16sp"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Tuliskan di sini..."
+        android:textColorHint="#A1887F"
+        android:textColor="#3E2723"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:padding="16dp"
+        android:background="@android:drawable/edit_text"
+        android:backgroundTint="#8B4513"
+        app:layout_constraintTop_toBottomOf="@+id/textNama" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="KIRIM PESAN"
+        android:textColor="#F2E8D5"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:backgroundTint="#A52A2A"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputNama" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
