@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kaye Mob</string>
+    <string name="Judul">Halaman Kirim</string>
+    <string name="Judul">Kode berhasil dikirim!</string>
+    <string name="AnakJudul">Silahkan periksa nomor anda!</string>>
+
 </resources>
