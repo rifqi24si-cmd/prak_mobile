@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KayeMob">
         <activity
+            android:name=".pertemuan_4.FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pertemuan_4.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".pertemuan_3.ThirdResultActivity"
             android:exported="false" />
         <activity

@@ -4,4 +4,12 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bg">#FDBD4C</color>
     <color name="tombol">#00314D</color>
+
+    <color name="forest_bg_soft">#F0F4F3</color>
+    <color name="forest_card_dark">#1B2E2A</color>
+    <color name="forest_accent">#5DB075</color>
+    <color name="forest_text_title">#0E231F</color>
+    <color name="forest_text_description">#667A76</color>
+    <color name="forest_text_white">#FFFFFF</color>
+
 </resources>
