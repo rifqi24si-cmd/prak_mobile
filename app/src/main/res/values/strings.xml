@@ -2,4 +2,6 @@
     <string name="app_name">Kaye Mob</string>
     <string name="Judul">Halaman Kirim</string>
     <string name="AnakJudul">Silahkan periksa nomor anda!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

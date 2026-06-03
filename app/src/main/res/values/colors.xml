@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bg">#FDBD4C</color>
     <color name="tombol">#00314D</color>
+    <color name="abu_gelap">#424242</color>
 
     <color name="forest_bg_soft">#F0F4F3</color>
     <color name="forest_card_dark">#1B2E2A</color>
