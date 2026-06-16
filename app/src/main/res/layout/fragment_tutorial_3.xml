@@ -3,19 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#74B9B0"
+    android:background="@color/zeus_black"
     android:padding="24dp">
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@mipmap/ic_launcher"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@android:drawable/ic_lock_silent_mode_off"
         app:layout_constraintBottom_toTopOf="@+id/tvTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed" />
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="@color/zeus_gold" />
 
     <TextView
         android:id="@+id/tvTitle"
@@ -23,9 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:gravity="center"
-        android:text="Mulai Gunakan Sekarang"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:text="Mulai Sekarang"
+        android:textColor="@color/zeus_gold"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tvDescription"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,8 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="Jelajahi fitur pesan dan temukan informasi penting dari komunitas pengguna. Fitur ini dirancang simpel, cepat, dan mudah dipahami"
-        android:textColor="@android:color/white"
+        android:text="Siap untuk bertransformasi? Geser sekarang dan kirim pesan pertama Anda!"
+        android:textColor="@color/zeus_white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

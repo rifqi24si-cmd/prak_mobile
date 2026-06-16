@@ -9,9 +9,10 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+// import com.example.kayemob.Home.photo.PhotoAdapter
 import com.example.kayemob.Data.Api.CatFactApiClient
 import com.example.kayemob.Data.Api.PhotoApiClient
-import com.example.kayemob.Home.photo.PhotoAdapter
+// import com.example.kayemob.Home.photo.PhotoAdapter
 import com.example.kayemob.databinding.FragmentHomeBinding
 import com.example.kayemob.pertemuan_2.SecondActivity
 import com.example.kayemob.pertemuan_3.ThirdActivity
@@ -78,6 +79,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupPhotoGallery() {
+        /*
         binding.rvGallery.layoutManager = LinearLayoutManager(requireContext())
         lifecycleScope.launch {
             try {
@@ -87,6 +89,7 @@ class HomeFragment : Fragment() {
                 Toast.makeText(requireContext(), "Gagal memuat foto", Toast.LENGTH_SHORT).show()
             }
         }
+        */
     }
 
     override fun onDestroyView() {

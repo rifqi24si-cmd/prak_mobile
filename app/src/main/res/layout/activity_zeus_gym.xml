@@ -5,27 +5,26 @@
     android:layout_height="match_parent"
     android:background="@color/zeus_black">
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/tutorialMessageViewPager"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:name="com.example.kayemob.zeusgym.ZeusHomeFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
-        android:id="@+id/dot_indicator"
-        android:layout_width="wrap_content"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:dotsColor="@color/zeus_light_gray"
-        app:dotsCornerRadius="10dp"
-        android:layout_marginBottom="100dp"
-        app:dotsSpacing="5dp"
+        android:background="@color/zeus_dark_gray"
+        app:itemIconTint="@color/zeus_gold"
+        app:itemTextColor="@color/zeus_gold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:progressMode="true"
-        app:selectedDotColor="@color/zeus_gold" />
+        app:menu="@menu/zeus_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

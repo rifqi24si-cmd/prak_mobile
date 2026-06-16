@@ -13,4 +13,12 @@
     <color name="forest_text_description">#667A76</color>
     <color name="forest_text_white">#FFFFFF</color>
 
+    <!-- Zeus Gym Theme -->
+    <color name="zeus_black">#121212</color>
+    <color name="zeus_gold">#FFD700</color>
+    <color name="zeus_dark_gray">#1E1E1E</color>
+    <color name="zeus_light_gray">#BDBDBD</color>
+    <color name="zeus_red">#CF6679</color>
+    <color name="zeus_white">#FFFFFF</color>
+
 </resources>

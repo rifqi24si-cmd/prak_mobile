@@ -14,13 +14,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KayeMob">
         <activity
-            android:name=".Message.tutorial.TutorialMessageActivity"
+            android:name=".zeusgym.ZeusGymActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Note.NoteFormActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Message.tutorial.TutorialMessageActivity"
+            android:exported="true">
         </activity>
         <activity
             android:name=".pertemuan_6.SixthActivity"
