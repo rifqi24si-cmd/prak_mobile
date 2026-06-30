@@ -115,6 +115,35 @@
                 app:iconGravity="textStart"
                 app:iconTint="@color/zeus_white" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_reminder_minutes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Menit"
+                    android:inputType="number"
+                    android:textColor="@color/zeus_white"
+                    android:textColorHint="@color/zeus_light_gray" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_set_reminder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Ingatkan Latihan"
+                    android:textSize="12sp"
+                    app:backgroundTint="@color/zeus_gold"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/zeus_black" />
+            </LinearLayout>
+
             <com.google.android.material.chip.ChipGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
